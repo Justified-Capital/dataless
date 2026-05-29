@@ -20,7 +20,7 @@ Let's say you are researching a strategy called **Gold Digger** that trades off 
 
 The only way to be sure is to avoid any historical data in favor of using approximations of all possible sequences of prices that could impact your strategy against your goals. That's what `dataless` does; allows you to create sequences in `sequence_modalities.py` and then receive the number of data points that you desire for each specified sequence.
 
-So let's say we want 42 data points for each of the 15 modality (approximate shapes from percentage changes) sequences for Gold (GLD) with a starting price of 478.34, we would use:
+So let's say we want 42 data points for each of the 15 modalities (approximate shapes from percentage changes) sequences for Gold (GLD) with a starting price of 478.34, we would use:
 ```
 dl = DataLess()
 data = dl.build_sequences(STARTING_PRICE, DATA_POINT_COUNT)
@@ -49,4 +49,4 @@ which represents data for each modality mapped to `sequence_modalities.py` illus
 
 <img width="784" height="1083" alt="image" src="https://github.com/user-attachments/assets/86117db8-a665-4058-a316-b41a6aa7e01f" />
 
-
+Noting that you can change that sequences modalities- adding, editing, and deleting as you please- as long as you keep the same structure.
