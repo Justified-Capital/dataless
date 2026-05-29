@@ -45,6 +45,3 @@ class DataLess:
             elif pm_index == (len(modality_markers) - 1):
                     sequence.append(self.new_seq_num(start_price, percentage_mark))
         return sequence
-
-dl = DataLess()
-print(dl.build_sequences(478.34, 24))
