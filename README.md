@@ -1,10 +1,10 @@
 ## Motivation
-The pricipal at Justified Capital has had almost every part of their life manipulated possible. Escepcially anything digitial that touches the internet-- unfortunately and especially data. Realizing that friendly dataset vendor could actually be the Police, just like the Police have actually been the people at the Secratary of State; masking the truth for their own selfish aims.  A scary reality when they can force places like Google and Stock Brokerages to change data. Polluting the foundational research data like in the image below:
+The principal at Justified Capital has had almost every part of their life manipulated possible. Especially anything digital that touches the internet-- unfortunately and especially data. Realizing that friendly dataset vendor could actually be the Police, just like the Police have actually been the people at the Secretary of State; masking the truth for their own selfish aims.  A scary reality when they can force places like Google and Stock Brokerages to change data. Polluting the foundational research data like in the image below:
 
 
 ![logo](datalessBowserPolice.png)
 
-So if you assume that an evil actor is taking a giant dump in all your data that touched the internet, how could you possibly create strategies that perform with any degree of reliability in a chaotic environment. An environment that may very well be manipulated against you in the first place. 
+So if you assume that an evil actor is taking a giant dump in all your data that touched the internet, how could you possibly create strategies that perform with any degree of reliability in a chaotic environment. An environment that may very well be manipulated against you in the first place.
 
 So if you think about developing strategies from a polluted dataset, no matter what you do- you will lose eventually. In fact, any short-lived success you had was probably just from sheer randomness. A scary truth for any rigorous quant who has tested a strategy against data and then watched it cut to part by some market condition that was not reflected at all in data.
 
@@ -13,10 +13,10 @@ The only way to develop rigorous data-driven strategies is to forget datasets al
 ### A Math Modeling Analogy
 When trying give some degree of predictability, finiteness, and control to a complex non-polynomial function, mathematicians will use a _Taylor Series_ to model a messy function from a context of a base point. Giving some degree of sanity to a local perspective amidst infinite madness. Although a model- there's some order that allows you to draw conclusions that are more sane than trying to pick patterns out of poopy data streams.
 
-Dataless is based on this notion of providing some thoughtful order behind approximating chaos. Creating a series of sequences that represent polynomial outcome paths-- ideally all path that could meanginfully impact an the outcome of a strategy.
+Dataless is based on this notion of providing some thoughtful order behind approximating chaos. Creating a series of sequences that represent polynomial outcome paths-- ideally all path that could meaningfully impact an the outcome of a strategy.
 
 ## Getting Started with an Example
-Let's say you are researching a strategy called **Gold Digger** that trades off of guaranteed responses in the price of GLD from instability in the rest of the market. You want to ensure that your strategy makes a certain amount of money in good conditions and does not lose more than a certain percentage in bad conditions. 
+Let's say you are researching a strategy called **Gold Digger** that trades off of guaranteed responses in the price of GLD from instability in the rest of the market. You want to ensure that your strategy makes a certain amount of money in good conditions and does not lose more than a certain percentage in bad conditions.
 
 The only way to be sure is to avoid any historical data in favor of using approximations of all possible sequences of prices that could impact your strategy against your goals. That's what `dataless` does; allows you to create sequences in `sequence_modalities.py` and then receive the number of data points that you desire for each specified sequence.
 
@@ -48,4 +48,5 @@ and running `python3 example_usage.py` yields:
 which represents data for each modality mapped to `sequence_modalities.py` illustrated below:
 
 <img width="784" height="1083" alt="image" src="https://github.com/user-attachments/assets/86117db8-a665-4058-a316-b41a6aa7e01f" />
+
 
