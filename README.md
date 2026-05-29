@@ -6,14 +6,14 @@ The principal at Justified Capital has had almost every part of their life manip
 
 So if you assume that an evil actor is taking a giant dump in all your data that touched the internet, how could you possibly create strategies that perform with any degree of reliability in a chaotic environment. An environment that may very well be manipulated against you in the first place.
 
-So if you think about developing strategies from a polluted dataset, no matter what you do- you will lose eventually. In fact, any short-lived success you had was probably just from sheer randomness. A scary truth for any rigorous quant who has tested a strategy against data and then watched it cut to part by some market condition that was not reflected at all in data.
+So if you think about developing strategies from a polluted dataset, no matter what you do- you will lose eventually. In fact, any short-lived success you had was probably just from sheer randomness. A scary truth for any rigorous quant who has tested a strategy against data and then watched it cut to shreds by some market condition that was not reflected at all in data.
 
 The only way to develop rigorous data-driven strategies is to forget datasets along with the Police, and move to a thoughtful preparation of all scenarios that could do meaningful damage to the strategy, along with- of course- those scenarios that provide gains.
 
 ### A Math Modeling Analogy
 When trying give some degree of predictability, finiteness, and control to a complex non-polynomial function, mathematicians will use a _Taylor Series_ to model a messy function from a context of a base point. Giving some degree of sanity to a local perspective amidst infinite madness. Although a model- there's some order that allows you to draw conclusions that are more sane than trying to pick patterns out of poopy data streams.
 
-Dataless is based on this notion of providing some thoughtful order behind approximating chaos. Creating a series of sequences that represent polynomial outcome paths-- ideally all path that could meaningfully impact an the outcome of a strategy.
+Dataless is based on this notion of providing some thoughtful order behind approximating chaos. Creating a series of sequences that represent polynomial outcome paths-- ideally all paths that could meaningfully impact an the outcome of a strategy.
 
 ## Getting Started with an Example
 Let's say you are researching a strategy called **Gold Digger** that trades off of guaranteed responses in the price of GLD from instability in the rest of the market. You want to ensure that your strategy makes a certain amount of money in good conditions and does not lose more than a certain percentage in bad conditions.
