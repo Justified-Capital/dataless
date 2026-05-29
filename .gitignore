@@ -1,4 +1,8 @@
 # Byte-compiled / optimized / DLL files
+
+#placing Vim first bc python vim devs are king
+*.sw*
+
 __pycache__/
 *.py[codz]
 *$py.class
